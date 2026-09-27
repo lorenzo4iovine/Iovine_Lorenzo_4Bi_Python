@@ -1,9 +1,30 @@
-# Cronologia dei Commit
+# Repository di Laboratorio di Informatica
 
-## Output di `git log --oneline --graph --decorate`
+* **Studente:** Lorenzo Iovine
+* **Classe:** 4Bi
+* **Materia:** Laboratorio di Informatica
+* **Anno scolastico:** 2026-2027
+* **Scuola:** ITT "G. Marconi" - Rovereto
+
+---
+
+## Scopo del repository
+Questo repository contiene tutti gli esercizi, le esercitazioni svolti durante le ore di laboratorio. Serve per raccogliere il codice e la documentazione richiesta dal professore.
+
+## Convenzione di denominazione delle cartelle
+Le cartelle sono organizzate per moduli con la sintassi `M<numero>_<nome_modulo>`:
+
 ```text
-* a1b2c3d (HEAD -> main, origin/main) docs(readme): aggiorna il file README principale
-* e4f5g6h docs(auth): aggiunge la scheda sull'autenticazione SSH
-* i7j8k9l feat(gitignore): aggiunge il file .gitignore e il test di verifica
-* m0n1o2p feat(struttura): crea la struttura delle cartelle del corso M0-M8
-* q3r4s5t docs(m0): aggiunge lo script orario.py e le schede dell'ambiente
+lab-info-4bi-iovine/
+├── .gitignore
+├── README.md
+├── M0_ambiente/
+├── M1_markdown/
+├── M2_python_avanzato/
+├── M3_strutture_python/
+├── M4_oop/
+├── M5_gesionifile/
+├── M6_gui/
+├── 
+└── M8_concorrenza_rete/
+
