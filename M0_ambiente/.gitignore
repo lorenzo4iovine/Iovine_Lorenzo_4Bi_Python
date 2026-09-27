@@ -1,0 +1,33 @@
+# Cache di Python
+__pycache__/
+*.pyc
+
+# Ambienti virtuali
+.venv/
+venv/
+
+# Notebook Jupyter
+.ipynb_checkpoints/
+
+# File temporanei di Windows
+Thumbs.db
+Desktop.ini
+*.tmp 
+
+
+
+@lorenzo4iovine ➜ /workspaces/Iovine_Lorenzo_4Bi_Python (main) $  source /workspaces/Iovine_Lorenzo_4Bi_Python/M0_ambien.venv/bin/activate
+(M0_ambien.venv) @lorenzo4iovine ➜ /workspaces/Iovine_Lorenzo_4Bi_Python (main) $ python -m venv M0_ambiente\.venv
+(M0_ambien.venv) @lorenzo4iovine ➜ /workspaces/Iovine_Lorenzo_4Bi_Python (main) $ mv M0_ambiente/.gitignore .gitignore
+mv: cannot stat 'M0_ambiente/.gitignore': No such file or directory
+(M0_ambien.venv) @lorenzo4iovine ➜ /workspaces/Iovine_Lorenzo_4Bi_Python (main) $ git add .gitignore
+(M0_ambien.venv) @lorenzo4iovine ➜ /workspaces/Iovine_Lorenzo_4Bi_Python (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+
+(M0_ambien.venv) @lorenzo4iovine ➜ /workspaces/Iovine_Lorenzo_4Bi_Python (main) $ git check-ignore -v M0_ambiente/.venv/pyvenv.cfg
+.gitignore:6:.venv/     M0_ambiente/.venv/pyvenv.cfg
